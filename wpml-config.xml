@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="_fboo_link_deactivate"/>
+        <key name="_fboo_link_activate"/>
+        <key name="_fboo_popup_deactivate"/>
+        <key name="_fboo_popup_activate"/>
+    </admin-texts>
+</wpml-config>

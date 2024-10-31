@@ -1,0 +1,96 @@
+.fboo-promotion img {
+    box-shadow: 0px 3px 15px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.mce-ico.mce-i-fboptout {
+    background-image: url('icon.png');
+}
+
+#fboo input[type=radio] {
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.fboo-empty-popup, .fboo-clipboard, code {
+    cursor: pointer;
+}
+
+.fboo-empty-popup.empty {
+    display: none;
+}
+
+.fboo-clipboard:hover, code:hover {
+    opacity: .6;
+}
+
+.fboo-check li a .dashicons {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.fboo-check li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.fboo-check li a:hover {
+    opacity: .6;
+}
+
+.fboo-check {
+    color: #dc3232 !important;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.fboo-check li:before {
+    content: "\2718";
+    margin-right: 5px;
+}
+
+.fboo-check li.check:before {
+    content: "\2713";
+}
+
+.fboo-check li.check {
+    color: #46b450 !important;
+}
+
+.fboo-check li.dontknow:before {
+    content: "?";
+}
+
+.fboo-check li.dontknow {
+    color: #ffba00 !important;
+}
+
+#fboo-checklist h2 {
+    margin-top: 0;
+    font-size: 1em;
+}
+
+#fboo-checklist li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+#fboo-checklist {
+    border-left: 5px solid #fff;
+    padding: 0 10px;
+    margin: 30px 0 0;
+    font-size: 1em;
+}
+
+#fboo-checklist.dontknow {
+    border-left-color: #ffba00;
+}
+
+#fboo-checklist.todo {
+    border-left-color: #dc3232;
+}
+
+#fboo-checklist.done {
+    border-left-color: #46b450;
+}
